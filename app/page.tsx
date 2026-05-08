@@ -13,12 +13,14 @@ const cards = [
   },
   {
     title: "Bestia",
-    subtitle: "La presencia que avanza entre recuerdos, culpas y promesas rotas.",
+    subtitle:
+      "La presencia que avanza entre recuerdos, culpas y promesas rotas.",
     color: "bg-[#ffc63e]",
   },
   {
     title: "Ruido",
-    subtitle: "Una ciudad interior llena de ecos, heridas y pequeñas revelaciones.",
+    subtitle:
+      "Una ciudad interior llena de ecos, heridas y pequeñas revelaciones.",
     color: "bg-[#cfd94f]",
   },
   {
@@ -33,7 +35,10 @@ export default function Home() {
     <main className="min-h-screen bg-[#fff6f8] text-[#31445a]">
       <header className="border-b border-[#f8bfd5] bg-white/85">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
-          <a className="text-xs font-semibold uppercase tracking-[0.35em]" href="#">
+          <a
+            className="text-xs font-semibold uppercase tracking-[0.35em]"
+            href="#"
+          >
             Silencio
           </a>
           <nav className="hidden items-center gap-8 text-[11px] font-bold uppercase tracking-[0.28em] text-[#58718a] md:flex">
@@ -56,13 +61,17 @@ export default function Home() {
         <div className="absolute bottom-8 right-0 h-44 w-28 rounded-l-full bg-[#f8bfd5]/70" />
         <div className="absolute left-[12%] top-24 h-28 w-3 rotate-[-14deg] bg-[#ffc63e]" />
         <div className="absolute right-[18%] top-28 h-20 w-4 rotate-[34deg] bg-[#f789b5]" />
-        <div className="absolute right-[10%] top-44 text-5xl text-[#ffc63e]">✶</div>
-        <div className="absolute left-[22%] bottom-10 text-3xl text-[#f789b5]">✦</div>
+        <div className="absolute right-[10%] top-44 text-5xl text-[#ffc63e]">
+          ✶
+        </div>
+        <div className="absolute left-[22%] bottom-10 text-3xl text-[#f789b5]">
+          ✦
+        </div>
 
         <div className="mx-auto grid min-h-[560px] max-w-6xl items-center gap-12 px-5 py-20 md:grid-cols-[1fr_0.9fr]">
           <div className="relative z-10 text-center md:text-left">
             <p className="mb-5 text-sm font-bold uppercase tracking-[0.42em] text-[#f789b5]">
-              Nueva novela
+              Raquel
             </p>
             <h1 className="text-5xl font-black uppercase leading-[0.95] text-[#31445a] sm:text-7xl lg:text-8xl">
               Silencio
@@ -71,9 +80,9 @@ export default function Home() {
               La bestia que devora el ruido
             </p>
             <p className="mx-auto mt-6 max-w-xl text-base leading-8 text-[#58718a] md:mx-0">
-              Texto provisional para presentar el tono de la landing. Aqui ira una
-              descripcion breve del libro, su atmosfera y la pregunta central que
-              invita a seguir leyendo.
+              Texto provisional para presentar el tono de la landing. Aqui ira
+              una descripcion breve del libro, su atmosfera y la pregunta
+              central que invita a seguir leyendo.
             </p>
             <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row md:justify-start">
               <a
@@ -152,12 +161,12 @@ export default function Home() {
           </h2>
           <p className="mt-6 leading-8 text-[#58718a]">
             Aqui puede ir una sinopsis corta, pensada para transmitir el pulso
-            emocional de la obra sin revelar demasiado. La maqueta esta preparada
-            para reemplazar estos textos por contenido definitivo.
+            emocional de la obra sin revelar demasiado. La maqueta esta
+            preparada para reemplazar estos textos por contenido definitivo.
           </p>
           <p className="mt-4 leading-8 text-[#58718a]">
-            Tambien se puede incluir una nota de la autora, informacion editorial,
-            fecha estimada de publicacion o enlaces a prensa y redes.
+            Tambien se puede incluir una nota de la autora, informacion
+            editorial, fecha estimada de publicacion o enlaces a prensa y redes.
           </p>
         </div>
       </section>
@@ -182,8 +191,8 @@ export default function Home() {
           <p className="mt-6 leading-8 text-[#31445a]">
             La casa parecia respirar despacio. En el pasillo, cada fotografia
             guardaba una version distinta de la misma ausencia. Entonces escucho
-            algo: no era un golpe, ni una voz, sino el ruido exacto de una verdad
-            acercandose.
+            algo: no era un golpe, ni una voz, sino el ruido exacto de una
+            verdad acercandose.
           </p>
         </div>
         <div className="bg-[#fff0f5] p-10" id="autora">
