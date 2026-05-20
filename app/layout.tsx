@@ -1,9 +1,29 @@
 import type { Metadata } from "next";
+import { Inter, Lora, Nunito } from "next/font/google";
 import "./globals.css";
 
+const nunito = Nunito({
+  subsets: ["latin"],
+  weight: ["600", "700", "800", "900"],
+  variable: "--font-nunito",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
+});
+
+const lora = Lora({
+  subsets: ["latin"],
+  weight: ["400", "500", "600"],
+  variable: "--font-lora",
+});
+
 export const metadata: Metadata = {
-  title: "Silencio | La bestia que devora el ruido",
-  description: "Landing demo para el libro Silencio: La bestia que devora el ruido.",
+  title: "Raquel Linares Expósito | Silencio",
+  description:
+    "Actividades educativas y culturales de Raquel Linares Expósito basadas en el libro infantil Silencio. La bestia que devora el ruido.",
 };
 
 export default function RootLayout({
@@ -13,7 +33,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="h-full antialiased">
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body
+        className={`${nunito.variable} ${inter.variable} ${lora.variable} min-h-full flex flex-col font-sans`}
+      >
+        {children}
+      </body>
     </html>
   );
 }
