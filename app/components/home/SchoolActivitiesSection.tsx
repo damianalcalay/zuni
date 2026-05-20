@@ -9,9 +9,9 @@ export function SchoolActivitiesSection() {
   return (
     <section
       id="actividades-colegios"
-      className="px-5 py-16 sm:px-8 lg:py-24"
+      className="relative px-5 py-16 sm:px-8 lg:py-24"
     >
-      <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[0.82fr_1fr]">
+      <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[0.82fr_1fr]">
         <ImagePlaceholder
           label="Actividad"
           title="Espacio para imagen de talleres o colegios"

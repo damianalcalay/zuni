@@ -1,0 +1,16 @@
+/* Ejemplo de uso: coloca estas imágenes como decoración absoluta dentro de una sección */
+.about-section {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(180deg, #ee8f9c 0%, #f8dfe0 100%);
+}
+.about-section .decor {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+  opacity: .9;
+}
+.about-section .decor.top-left { left: 0; top: 0; width: 30%; }
+.about-section .decor.bottom-left { left: 0; bottom: 0; width: 32%; }
+.about-section .decor.top-right { right: 0; top: 0; width: 33%; }
+.about-section .decor.bottom-right { right: 0; bottom: 0; width: 28%; }

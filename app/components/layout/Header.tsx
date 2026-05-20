@@ -2,17 +2,18 @@ import { Button } from "../ui/Button";
 
 const navItems = [
   { label: "Inicio", href: "#inicio" },
-  { label: "Quién soy", href: "#quien-soy" },
+  { label: "Quién soy", href: "#inicio" },
   { label: "Mi libro", href: "#mi-libro" },
   { label: "Actividades en colegios", href: "#actividades-colegios" },
   { label: "Ponencias", href: "#ponencias" },
   { label: "Ferias del libro", href: "#ferias-libro" },
+  { label: "Envíos", href: "#envios-domicilio" },
   { label: "Contacto", href: "#contacto" },
 ];
 
 export function Header() {
   return (
-    <header className="sticky top-0 z-50 bg-white">
+    <header className="sticky top-0 z-50 bg-[var(--pink-50)]/90 backdrop-blur-md">
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 lg:px-8">
         <a
           href="#inicio"
@@ -42,7 +43,7 @@ export function Header() {
               <span className="absolute left-0 top-4 h-0.5 w-5 rounded bg-current transition group-open:top-2 group-open:-rotate-45" />
             </span>
           </summary>
-          <div className="absolute right-0 mt-3 w-[min(20rem,calc(100vw-2.5rem))] bg-white p-4">
+          <div className="absolute right-0 mt-3 w-[min(20rem,calc(100vw-2.5rem))] bg-[var(--pink-50)] p-4">
             <nav className="flex flex-col gap-1 text-sm font-medium text-black">
               {navItems.map((item) => (
                 <a

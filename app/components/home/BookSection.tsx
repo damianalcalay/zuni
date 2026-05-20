@@ -6,9 +6,9 @@ export function BookSection() {
   return (
     <section
       id="mi-libro"
-      className="relative overflow-hidden bg-white px-5 py-16 sm:px-8 lg:py-24"
+      className="relative px-5 py-16 sm:px-8 lg:py-24"
     >
-      <div className="relative mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1fr_0.72fr]">
+      <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[1fr_0.72fr]">
         <Card>
           <CardContent className="lg:p-10">
             <SectionIntro badge="El libro" title="Silencio. La bestia que devora el ruido">

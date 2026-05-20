@@ -5,8 +5,11 @@ import { SectionIntro } from "./SectionIntro";
 
 export function BookFairsSection() {
   return (
-    <section id="ferias-libro" className="px-5 py-16 sm:px-8 lg:py-24">
-      <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[0.82fr_1fr]">
+    <section
+      id="ferias-libro"
+      className="relative px-5 py-16 sm:px-8 lg:py-24"
+    >
+      <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-[0.82fr_1fr]">
         <ImagePlaceholder
           label="Evento"
           title="Espacio para imagen de feria del libro"

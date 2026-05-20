@@ -6,10 +6,11 @@ type ButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
 };
 
 const variants = {
-  primary: "bg-white text-black underline underline-offset-4 focus-visible:outline-black",
+  primary:
+    "rounded-full bg-black px-5 text-white focus-visible:outline-black",
   secondary:
-    "bg-white text-black underline underline-offset-4 focus-visible:outline-black",
-  ghost: "bg-white text-black underline underline-offset-4 focus-visible:outline-black",
+    "rounded-full bg-white/70 px-5 text-black focus-visible:outline-black",
+  ghost: "text-black underline underline-offset-4 focus-visible:outline-black",
 };
 
 export function Button({

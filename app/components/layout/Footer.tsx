@@ -1,15 +1,16 @@
 const footerLinks = [
-  { label: "Quién soy", href: "#quien-soy" },
+  { label: "Quién soy", href: "#inicio" },
   { label: "Mi libro", href: "#mi-libro" },
   { label: "Actividades en colegios", href: "#actividades-colegios" },
   { label: "Ponencias", href: "#ponencias" },
   { label: "Ferias del libro", href: "#ferias-libro" },
+  { label: "Envíos a domicilio", href: "#envios-domicilio" },
   { label: "Contacto", href: "#contacto" },
 ];
 
 export function Footer() {
   return (
-    <footer id="contacto" className="bg-white">
+    <footer id="contacto">
       <div className="mx-auto grid max-w-7xl gap-10 px-5 py-12 sm:px-8 lg:grid-cols-[1fr_1.4fr_0.6fr]">
         <div>
           <p className="font-editorial text-xl font-semibold text-black">
